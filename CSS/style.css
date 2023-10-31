@@ -1,0 +1,298 @@
+.carrossel{
+    width: 70%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#c2cec0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #3d3c3c;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .logo {
+    width: 10%;
+    /* margin-left: 38%; */
+  }
+
+  .mgleft {
+    margin-left: 33%;
+  }
+
+  .fundo {
+    background-color: #DCEADA;
+  }
+
+  .letra {
+    color:#bac0b9;
+  }
+  body{
+    background-color: #535653;
+  }
+ .carrosel{
+  width: 50%;
+ }
+ .video{
+  margin-left: 15%;
+ 
+
+ }
+ .letras{
+  margin-left: -31%;
+  
+ }
+ .menu2{
+    margin-top: 2%;
+ }
+
+ .bodyL {
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/movieposter.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #EFD8D8;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.login-container h1 {
+  font-size: 24px;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tamanhoIMG {
+  height: 170px;
+  width: 250px;;
+
+}
+
+/* contato*/
+.bodyC {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.contact-form {
+  text-align: center;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #EFD8D8;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.logo {
+  width: 10%;
+  /* margin-left: 38%; */
+}
+
+.mgleft {
+  margin-left: 33%;
+}
+
+.fundo {
+  background-color: #DCEADA;
+}
+
+.letra {
+  color: black;
+}
+body{
+  background-color: #f2e4e4;
+}
+
+@media (max-width: 990px) {
+  .mgleft {
+    margin-left: 0;
+  }
+
+  .navbar-collapse {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .collapse img {
+    width: 34%;
+  }
+}
+
+body{
+  background-color: #E7BA9E;
+  }
+  
+  a{
+      text-decoration: none;
+      color: white;
+  }
+  .bot{
+   justify-content: flex-end;
+  }
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+    
+    .campo {
+    margin-bottom: 20px;
+    }
+    
+    label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    
+    input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    
+    .TITLE{
+    
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 2%;
+  }  
+    .submit{
+      background-color: #f3f6f2;
+      color: #ccc;
+      text-align: center;
+      width: 106%;
+    }
+  
+  
+  
+  
+
+footer {
+  background-color: #EFD8D8;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 15.5%;
+}
+@media (max-widht:600px) {
+  .footer{
+      margin-top: 90%;
+     
+  }
+}
+
+
+  @media (max-width: 990px) {
+    .mgleft {
+      margin-left: 0;
+    }
+
+    .navbar-collapse {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .collapse img {
+      width: 34%;
+    }
+  }
